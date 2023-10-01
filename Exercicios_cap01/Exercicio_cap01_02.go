@@ -6,5 +6,18 @@
 // 3. Identificador "z" deverá ter tipo bool
 // Na função main:
 // 1. Demonstre os valores de cada identificador.
-// 2. O compilador atribuiu valores para essas variáveis. Como esses valores se chamam?
+// 2. O compilador atribuiu valores para essas variáveis. Como esses valores se chamam? São o valor zero por não possuirem nenhum valor atribuido a eles
 
+package main
+
+import "fmt"
+
+var x int
+var y string
+var z bool
+
+func main(){
+	fmt.Println(x)
+	fmt.Println(y)
+	fmt.Println(z)
+}
